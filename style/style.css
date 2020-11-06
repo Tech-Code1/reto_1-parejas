@@ -1,0 +1,111 @@
+* {
+  /* colors */
+  --veryPaleCyan: hsl(193, 100%, 96%);
+  --veryDarkCyan: hsl(192, 100%, 9%);
+  --grayishBlue: hsl(208, 11%, 55%);
+  --btnTwo: hsl(322, 100%, 66%);
+  --btnTwoHover: #f83eb5;
+
+  /* font family */
+  --fontOne: "Open Sans";
+  --fontTwo: Poppins;
+}
+
+header {
+  background-image: url("../img/bg-hero-desktop.svg");
+  background-size: cover;
+  background-color: var(--veryPaleCyan);
+}
+
+.font-one {
+  font-size: 48px;
+}
+
+.txt-community {
+  font-size: 32px;
+}
+
+.font-one,
+.txt-community {
+  font-family: var(--fontTwo);
+  color: var(--veryDarkCyan);
+  line-height: 70px;
+  font-weight: 600;
+}
+
+.font-two {
+  font-size: 18px;
+  font-family: var(--fontOne);
+  font-weight: 400;
+}
+
+button {
+  outline: none;
+  border: none;
+}
+
+.box-one {
+  height: 600px;
+}
+
+.btn-free {
+  font-family: var(--fontOne);
+  font-weight: bold;
+}
+
+.txt-btn,
+.txt-btn-two {
+  font-family: var(--fontOne);
+  font-weight: bold;
+  background: var(--btnTwo);
+}
+
+.txt-btn:hover,
+.txt-btn-two:hover {
+  background: var(--btnTwoHover);
+}
+
+main {
+  margin-top: 200px;
+}
+
+.title-h2 {
+  font-family: var(--fontTwo);
+  color: var(--veryDarkCyan);
+  font-size: 24px;
+  font-weight: 600;
+}
+
+.style-p {
+  color: var(--grayishBlue);
+  font-size: 18px;
+  font-weight: 400;
+}
+
+footer {
+  background-color: var(--veryDarkCyan);
+  height: 560px;
+  color: #fffffd;
+  font-family: var(--fontOne);
+}
+
+.style-txt-footer {
+  font-size: 16px;
+}
+
+.style-text-two {
+  font-family: var(--fontOne);
+  font-size: 14px;
+  text-align: right;
+}
+
+i {
+  font-size: 32px;
+}
+
+.card {
+  width: 800px;
+  height: 370px;
+  top: 185px;
+  border-radius: 12px;
+}
